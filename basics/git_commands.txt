@@ -10,3 +10,13 @@ git confing --list - проверка настроек
 ssh-keygen - генерация ssh ключа
 
 cat ~/.ssh/id_rsa.pub - получение  ssh ключа
+
+git init - превращает текущую директорию в git - репозиторий
+
+git add - название файла/ . - отслеживание изменений указанных/ всех файлов 
+
+git commit -m "message for commit" - создание версий кода c сообщением
+
+git remote add <name_of_remote> <ssh_key> - связывание локального репизитория с удаленным 
+
+git push <name_of_remote> <branch_name> - отправка версии на github 
